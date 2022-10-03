@@ -10,7 +10,7 @@ public class Program {
 		// TODO Auto-generated method stub
 		int[] arr=additional.GenerateArray.generateArr();	
 		
-		additional.PrintArray.print(arr,false);
+	/*	additional.PrintArray.print(arr,false);
 		sort.BubbleSort.sort(arr);	
 		additional.PrintArray.print(arr,true);
 		
@@ -24,6 +24,11 @@ public class Program {
 		arr=additional.GenerateArray.generateArr();	
 		additional.PrintArray.print(arr,false);
 		sort.InsertionSort.sort(arr);	
+		additional.PrintArray.print(arr,true);*/
+		
+		arr=additional.GenerateArray.generateArr();	
+		additional.PrintArray.print(arr,false);
+		sort.ShellSort.sort(arr);	
 		additional.PrintArray.print(arr,true);
 		
 		
