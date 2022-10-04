@@ -1,6 +1,7 @@
 package main;
 
 import additional.PrintArray;
+import faktoriyel.Factorial;
 
 public class Program {
 	
@@ -24,12 +25,14 @@ public class Program {
 		arr=additional.GenerateArray.generateArr();	
 		additional.PrintArray.print(arr,false);
 		sort.InsertionSort.sort(arr);	
-		additional.PrintArray.print(arr,true);*/
+		additional.PrintArray.print(arr,true);
 		
 		arr=additional.GenerateArray.generateArr();	
 		additional.PrintArray.print(arr,false);
 		sort.ShellSort.sort(arr);	
-		additional.PrintArray.print(arr,true);
+		additional.PrintArray.print(arr,true);*/
+		System.out.println(Factorial.factorialPrint(5));
+		System.out.println(Factorial.factorialCalculate(5));
 		
 		
 		
